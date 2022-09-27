@@ -6,7 +6,6 @@ export const handler = async (event: APIGatewayProxyEventV2,context: Context): P
 		event,
 		context,
 	};
-	
 	return {
 		statusCode: 200,
 		body: JSON.stringify(result)
